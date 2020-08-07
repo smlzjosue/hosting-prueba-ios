@@ -1,0 +1,14 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "CSG9B6JZ9G.com.todoclaro.miclaroapp",
+                "paths": [ "*", "/" ]
+            }
+        ]
+    },
+    "webcredentials": {
+      "apps": [ "CSG9B6JZ9G.com.todoclaro.miclaroapp" ]
+   }
+}

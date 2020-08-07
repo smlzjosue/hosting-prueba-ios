@@ -1,0 +1,30 @@
+editar el archivo ubicado en
+
+/etc/apache2/sites-available/default-ssl.conf
+
+y agregar lo siguiente
+
+<Directory /var/www/.well-known/>
+<Files apple-app-site-association>
+Header set Content-type "application/pkcs7-mime"
+</Files>
+</Directory>
+
+
+antiguo firebase.json
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
